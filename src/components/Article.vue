@@ -8,7 +8,7 @@
         Show All
       </button>
       <button v-for="category in categories" :key="category.id" @click="filterByCategory(category.id)" class="btn btn-primary me-2 mb-2 rounded-pill">
-        {{ category.attributes.Name }}
+        {{ category.attributes.name }}
         {{console.log(categories)}}
       </button>
     </div>
