@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <HeaderComponent msg="Strapi view"/>
+    <ArticleList/>
   </div>
 </template>
 
 <script>
-import HeaderComponent from './components/HeaderComponent.vue'
+import HeaderComponent from './components/HeaderComponent.vue';
+import ArticleList from './components/Article.vue'; // Correction de l'importation
 
 export default {
   name: 'App',
   components: {
-    HeaderComponent
-  }
+    HeaderComponent,
+    ArticleList
+  },
 }
 </script>
 
