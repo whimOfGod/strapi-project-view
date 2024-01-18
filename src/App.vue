@@ -9,6 +9,7 @@
 import HeaderComponent from './components/HeaderComponent.vue';
 import ArticleList from './components/Article.vue'; // Correction de l'importation
 
+
 export default {
   name: 'App',
   components: {
